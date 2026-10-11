@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Datasets and generated outputs
+**/data/
+*.h5
+*.hdf5
+*.csv
+*.parquet
+*.zip
+
+# Excel files (review individually before including)
+*.xlsx
+*.xls
+
+# Word documents (review before including)
+*.docx
+*.doc
+
+# Temporary files
+*.tmp
+*.log
+~$*
